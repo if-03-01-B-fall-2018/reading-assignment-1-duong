@@ -1,67 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cheatsheet by Ben Kai Tang</title>
+<style>
+body {
+  background-image: url("white.jpg");
+}
 
-# Created by https://www.gitignore.io/api/linux,macos,windows
+</style>
+</head>
 
-### Linux ###
-*~
+<body>
 
-# temporary files which can be created if a process still has a handle open of a deleted file
-.fuse_hidden*
+<strong>Cheatsheet:</strong>
 
-# KDE directory preferences
-.directory
+<p>
+Basis
+<p>
+1. The DOCTYPE declaration must be the very first thing in your HTML document, before the html tag.<br>
+2. The body tag defines the document's body.<br>
+3. The em tag is a phrase tag. It renders as emphasized text.<br>
+4. The head element is a container for all the head elements.<br>
+5. The html tag tells the browser that this is an HTML document.<br>
+6. The strong tag is a phrase tag. It defines important text.<br>
+7. The title tag is required in all HTML documents and it defines the title of the document.<br>
+<p>
+Questions
+<p>
+Word Wide Web General<br>
+1. What are the most essential technologies that made the World Wide Web such a success?<br>
+URL and URI
+<p>
+2. How are resources (html pages, images, etc) addressed in the web?<br>
+URL and URI, Language: HTML, HTTP (Transfer)
+<p>
+3. What are the general components of a url?<br>
+A scheme,a host, a path, a query string
+<p>
+Web Server<br>
+1. What is a web Server<br>
+Its a server which transfers documents to clients
+<p>
+2. What does a web server?<br>
+Primary function: serve content
+<p>
+3. How can content be stored on a web server?<br>
+Stored in hard disks of web servers all over the world
+<p>
+4. How is content in webpages described?<br>
+ As Web content which can be textual, visual or aural
+<p>
+Web Client<br>
+1. What is a web client?<br>
+Its a software application
+<p>
+2. What does a web client?<br>
+It accesses information on the World Wide Web
+<p>
+3. Web Client and Web Browser is the same<br>
+Yes both are the same
+<p>
+Hello World<br>
+1. What is the html head element?<br>
+Head element is a container for all their elements, it can include a title, script, styles, meta information and more
+<p>
+2. What does <!DOCTYPE` html> mean?<br>
+!DOCTYPE is an instruction to the web server which version of HTML the page is written
+<p>
+3. What are the two top most elements within the html element?<br>
+!DOCTYPE and HTML
+<p>
+4. How to emphasize a text and how is it displayed in the browser?<br>
+Emphasize an element with em. It renders as emphasized text
+<p>
+5. How to mark up important ext and how is it displayed in the browser?<br>
+To mark up important text you use strong and it is displayed as bold text
+<p>
+</h1>
 
-# Linux trash folder which might appear on any partition or disk
-.Trash-*
-
-# .nfs files are created when an open file is removed but is still being accessed
-.nfs*
-
-### macOS ###
-*.DS_Store
-.AppleDouble
-.LSOverride
-
-# Icon must end with two \r
-Icon
-
-# Thumbnails
-._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-.com.apple.timemachine.donotpresent
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
-
-### Windows ###
-# Windows thumbnail cache files
-Thumbs.db
-ehthumbs.db
-ehthumbs_vista.db
-
-# Folder config file
-Desktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-# End of https://www.gitignore.io/api/linux,macos,windows
+</body>
